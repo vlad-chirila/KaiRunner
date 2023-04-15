@@ -1,19 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Activity Detail</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script type="module" src="script.js"></script>
   </head>
   <body>
     <header>
       <h1 id="activity-name">Activity Detail</h1>
     </header>
     <main>
-      <div id="activity-map"></div>
-      <ul id="activity-stats"></ul>
+      <p>
+        <strong>Date:</strong> <span id="activity-date"></span>
+      </p>
+      <p>
+        <strong>Distance:</strong> <span id="activity-distance"></span> km
+      </p>
+      <p>
+        <strong>Elevation Gain:</strong>
+        <span id="activity-elevation"></span> meters
+      </p>
+      <p>
+        <strong>Moving Time:</strong> <span id="activity-time"></span>
+      </p>
     </main>
-    <script src="script.js"></script>
   </body>
 </html>
