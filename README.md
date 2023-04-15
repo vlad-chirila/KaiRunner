@@ -1,4 +1,5 @@
 # Strava App for KaiOS
+![alt](https://www.linkpicture.com/q/photo_5895559551632129834_y.jpg)
 This is a sample Strava app built for the KaiOS platform using JavaScript, HTML, and CSS. The app allows users to authenticate with the Strava API, fetch and display their activities, and view details about individual activities.
 
 ## Features
@@ -54,5 +55,10 @@ Install your app on a KaiOS device using the KaiOS Developer Dashboard.
 
 For more information on deploying KaiOS apps, refer to the KaiOS Developer Portal documentation.
 
-License
--
+### License
+MIT
+
+### Screenshots
+![alt](https://www.linkpicture.com/q/photo_5895559551632129837_x.jpg)
+![alt](https://www.linkpicture.com/q/photo_5895559551632129835_x.jpg)
+![alt](https://www.linkpicture.com/q/photo_5895559551632129836_x.jpg)
